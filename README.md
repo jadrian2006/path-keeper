@@ -1,6 +1,18 @@
 # Path Keeper
 
-Path Keeper is a character builder and level-up planner for [Foundry Virtual Tabletop](https://foundryvtt.com) 14 and the Pathfinder Second Edition (PF2e) and Starfinder Second Edition (SF2e) game systems.
+A character builder and level-up planner for [Foundry Virtual Tabletop](https://foundryvtt.com) 14 and the Pathfinder Second Edition (PF2e) and Starfinder Second Edition (SF2e) game systems.
+
+## Install
+
+In Foundry's Setup, open **Add-on Modules → Install Module**, paste this into **Manifest URL**, and click **Install**:
+
+```
+https://github.com/jadrian2006/path-keeper/releases/latest/download/module.json
+```
+
+Then launch your world and enable **Path Keeper** under **Game Settings → Manage Modules**. Foundry checks the same link for updates. It needs Foundry 14 with the Pathfinder Second Edition or Starfinder Second Edition system ([requirements](#requirements)); the files themselves are on the [latest release](https://github.com/jadrian2006/path-keeper/releases/latest) page.
+
+## About
 
 Players plan a character from level 1 to 20 in a guided workshop. The GM decides which books and rarities are allowed and approves what becomes a real character. Path Keeper reads the compendiums installed in your world and creates and levels characters through the game system's own item pipeline, so automatic grants, rule-element choices, and feat slots are applied by the system itself. It bundles none of the system's content.
 
@@ -42,19 +54,9 @@ One of the two systems is required. Starfinder content in a PF2e world (and the 
 
 When your world runs a newer system version than the verified one, nothing is blocked: the GM sees a notice once, and **GM configuration → System compatibility** can check the module's readers against your installed compendiums.
 
-## Installing
-
-In Foundry's **Add-on Modules → Install Module**, paste this manifest URL:
-
-```
-https://github.com/jadrian2006/path-keeper/releases/latest/download/module.json
-```
-
-Then enable **Path Keeper** in your world under **Game Settings → Manage Modules**.
+## Getting started
 
 After installing or updating, return to Setup and launch the world once so the in-game guides load.
-
-## Getting started
 
 1. Open the **Actors** sidebar and click **Open Path Keeper**. The guide for your role opens beside the workshop.
 2. As GM, click **GM configuration** in the workshop header. Choose the books players may use, the rarity rules, and the starting equipment.

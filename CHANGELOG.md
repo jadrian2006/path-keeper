@@ -2,9 +2,9 @@
 
 Changes a player or GM would notice, newest first. Versions before the first public release were private test builds and are not listed.
 
-## Unreleased
+## 0.9.0
 
-First public release.
+First public release. The 0.9 releases are the run-up to 1.0.0: the module is complete, and they are there to confirm that installing and updating work for everyone.
 
 ### For players
 

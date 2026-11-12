@@ -1,5 +1,7 @@
 # Path Keeper guides
 
+**To install Path Keeper**, paste its manifest link into Foundry's Install Module dialog: see [Install](../../README.md#install).
+
 Path Keeper is a character builder for Foundry VTT 14 and the Pathfinder Second Edition (PF2e) and Starfinder Second Edition (SF2e) systems. It reads your installed compendiums at runtime and creates characters through PF2e's own item pipeline, so automatic grants, rule-element choices, and feat slots are applied by the system itself.
 
 The same guides ship **inside the module** as two compendiums, so they are available in game:
