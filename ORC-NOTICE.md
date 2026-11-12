@@ -10,7 +10,7 @@ Path Keeper reads the game system installed in a Foundry world (the PF2e or SF2e
 
 Path Keeper does contain a small amount of Licensed Material, all of it game mechanics:
 
-- the rules adjustments in `src/module-rules.js`, each naming the product and page it comes from;
+- the rules adjustments in the module's `src/module-rules.js`, each naming the product and page it comes from;
 - short fragments of rules wording that its readers look for in the installed system's descriptions (for example, how many spells a class adds to its repertoire at each level).
 
 Its code, rules adjustments, and text contain no Reserved Material: no trademarks used as game content, no proper nouns (characters, deities, locations, organizations, and terms derived from them), no artwork, and no trade dress.

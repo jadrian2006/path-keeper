@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible Path Keeper test-build issue without exporting a character or world.
+description: Report a reproducible Path Keeper problem without exporting a character or world.
 title: '[Bug] '
 labels: ['bug']
 body:
