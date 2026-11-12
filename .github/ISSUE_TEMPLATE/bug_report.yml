@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible Path Keeper test-build issue without exporting a character or world.
+title: '[Bug] '
+labels: ['bug']
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Foundry and system (PF2e or SF2e) versions
+      placeholder: Foundry 14.x, PF2e 8.x (or SF2e 1.x)
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Test setup
+      description: Include ancestry, heritage, background, class, level, relevant choices, and third-party modules.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: input
+    id: rule
+    attributes:
+      label: Rules reference
+      description: The rule that says what should happen, with book and page.
+      placeholder: Player Core 2 p. 119, Qi Spells
+    validations:
+      required: false
+  - type: textarea
+    id: automation
+    attributes:
+      label: System automation
+      description: Does the game system's data automate this? List the item's rule elements (GrantItem, ChoiceSet, …), or write "text only".
+      placeholder: Qi Spells has no rule elements; its text names the spells
+    validations:
+      required: false
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Redact personal details, server addresses, credentials, and tokens. Do not attach actor exports or world data.
+    validations:
+      required: true
