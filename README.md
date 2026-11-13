@@ -87,6 +87,8 @@ Path Keeper's JavaScript ships unminified inside the release ZIP, under the MIT 
 
 ## Credits and licensing
 
+Path Keeper is made by [jadrian2006](https://github.com/jadrian2006) and [Frodie](https://github.com/Frodie).
+
 Path Keeper's code is released under the [MIT License](LICENSE). The few game rules it contains are ORC Licensed Material; see [ORC-NOTICE.md](ORC-NOTICE.md).
 
 Path Keeper ships no artwork, and no rules text beyond a few cited rules adjustments credited in [ORC-NOTICE.md](ORC-NOTICE.md); everything else it shows comes from the PF2e/SF2e game system and Foundry at runtime. The guide screenshots replace the system's artwork with plain placeholders and flat colours.
