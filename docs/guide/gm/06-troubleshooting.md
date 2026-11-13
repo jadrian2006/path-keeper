@@ -30,7 +30,7 @@ If something that used to work now says "could not be read", "not a current opti
 
 ## Upgrading from a private test build
 
-Before its first public release Path Keeper was installed as **Path Keeper (Private Prototype)**, a module with another id. After installing Path Keeper, disable that module in **Manage Modules**, enable **Path Keeper**, and reload. On the first start, Path Keeper copies your configuration, the request queue, approved plans, and every player's plans across by itself, and a notice says when it has. While both modules are enabled nothing is copied and a notice asks you to disable the old one. The old module can be uninstalled afterwards.
+Before its first public release Path Keeper was installed as **Path Keeper (Private Prototype)**, a module with another id. After installing Path Keeper, disable that module in **Manage Modules**, enable **Path Keeper**, and reload. On the first start, Path Keeper copies your configuration, the request queue, approved plans, and every player's plans across by itself, and a notice says when it has. While both modules are enabled nothing is copied and a notice asks you to disable the old one. Uninstall the old module afterwards, from Foundry's Setup screen. Until you do, Foundry's update check reports an error for **Path Keeper (Private Prototype)**: the test builds were never published, so there is nothing to update it from. The error is harmless.
 
 ## Known limits
 

@@ -2,6 +2,10 @@
 
 Changes a player or GM would notice, newest first. Versions before the first public release were private test builds and are not listed.
 
+## 0.9.1
+
+- GM guide: the page on upgrading from a private test build now says why Foundry's update check reports an error for the old module until it is uninstalled.
+
 ## 0.9.0
 
 First public release. The 0.9 releases are the run-up to 1.0.0: the module is complete, and they are there to confirm that installing and updating work for everyone.
